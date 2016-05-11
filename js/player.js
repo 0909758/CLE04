@@ -8,7 +8,6 @@ var update = function (modifier) {
         if  (player.attributes.y >= 0){
             player.attributes.y -= player.attributes.speed * modifier;
             background.attributes.y += background.attributes.speed * modifier;
-            middle_layer.attributes.y += middle_layer.attributes.speed * modifier;
             top_layer.attributes.y += top_layer.attributes.speed * modifier;
             if (biteRange())
             {
@@ -23,7 +22,6 @@ var update = function (modifier) {
         if  (player.attributes.y <= 500) {
             player.attributes.y += player.attributes.speed * modifier;
             background.attributes.y -= background.attributes.speed * modifier;
-            middle_layer.attributes.y -= middle_layer.attributes.speed * modifier;
             top_layer.attributes.y -= top_layer.attributes.speed * modifier;
             if (biteRange())
             {
@@ -38,7 +36,6 @@ var update = function (modifier) {
         if  (player.attributes.x >= 0) {
             player.attributes.x -= player.attributes.speed * modifier;
             background.attributes.x += background.attributes.speed * modifier;
-            middle_layer.attributes.x += middle_layer.attributes.speed * modifier;
             top_layer.attributes.x += top_layer.attributes.speed * modifier;
             if (biteRange())
             {
@@ -53,7 +50,6 @@ var update = function (modifier) {
         if  (player.attributes.x <= 900) {
             player.attributes.x += player.attributes.speed * modifier;
             background.attributes.x -= background.attributes.speed * modifier;
-            middle_layer.attributes.x -= middle_layer.attributes.speed * modifier;
             top_layer.attributes.x -= top_layer.attributes.speed * modifier;
             if (biteRange())
             {
