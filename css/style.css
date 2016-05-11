@@ -1,0 +1,11 @@
+body
+{
+
+}
+#gameframe
+ {
+     width: 1000px;
+     height: 600px;
+    border: solid 5px ;
+    margin: 50px 400px;
+ }
